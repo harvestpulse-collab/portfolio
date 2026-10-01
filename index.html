@@ -232,6 +232,7 @@
         <a class="nav-link" href="#skills">Навыки</a>
         <a class="nav-link" href="#projects">Проекты</a>
         <a class="nav-link" href="#achievements">Достижения</a>
+        <a class="nav-link" href="#europe">Европа</a>
         <a class="nav-link" href="#resume">Резюме</a>
         <a class="nav-link" href="#contacts">Контакты</a>
       </div>
@@ -257,6 +258,7 @@
         <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#skills">Навыки</a>
         <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#projects">Проекты</a>
         <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#achievements">Достижения</a>
+        <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#europe">Европа</a>
         <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#resume">Резюме</a>
         <a class="rounded-md px-3 py-2 transition hover:bg-field-400/12" href="#contacts">Контакты</a>
         <div class="mt-2 grid grid-cols-3 gap-2 rounded-lg border border-zinc-200 bg-white/70 p-1 text-xs font-extrabold dark:border-zinc-800 dark:bg-zinc-950/60" role="group" aria-label="Language selector">
@@ -524,6 +526,50 @@
       </div>
     </section>
 
+    <section id="europe" class="scroll-mt-24 px-4 py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal max-w-3xl">
+          <p class="text-sm font-bold uppercase tracking-[0.22em] text-field-600 dark:text-field-300">Поездка в Европу</p>
+          <h2 class="mt-4 text-3xl font-extrabold leading-tight text-graphite-950 dark:text-white sm:text-4xl">Digital Agroleaders 2026: экскурсия по заводам John Deere и Dewulf</h2>
+          <p class="mt-6 text-base leading-8 text-zinc-600 dark:text-zinc-400">
+            Наградой за 2 место в конкурсе Digital Agroleaders 2026 стала поездка в Европу, где я побывал на производстве двух известных производителей сельскохозяйственной техники.
+          </p>
+        </div>
+
+        <div class="mt-10 grid gap-5 md:grid-cols-2">
+          <article class="reveal glass rounded-lg p-6 hover-lift">
+            <div class="flex items-center gap-4">
+              <div class="rounded-lg border border-field-400/30 bg-field-400/12 p-3 text-field-600 dark:text-field-300">
+                <i data-lucide="tractor" class="h-6 w-6"></i>
+              </div>
+              <div>
+                <p class="text-sm font-bold text-field-600 dark:text-field-300">Германия</p>
+                <h3 class="font-extrabold text-graphite-950 dark:text-white">John Deere</h3>
+              </div>
+            </div>
+            <p class="mt-5 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+              Экскурсия по заводу John Deere в Германии: знакомство с тем, как создается современная сельскохозяйственная техника.
+            </p>
+          </article>
+
+          <article class="reveal glass rounded-lg p-6 hover-lift">
+            <div class="flex items-center gap-4">
+              <div class="rounded-lg border border-ion-400/30 bg-ion-400/12 p-3 text-ion-600 dark:text-ion-300">
+                <i data-lucide="factory" class="h-6 w-6"></i>
+              </div>
+              <div>
+                <p class="text-sm font-bold text-ion-600 dark:text-ion-300">Бельгия</p>
+                <h3 class="font-extrabold text-graphite-950 dark:text-white">Dewulf</h3>
+              </div>
+            </div>
+            <p class="mt-5 text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+              Экскурсия по заводу Dewulf в Бельгии: производитель техники для уборки и обработки картофеля и корнеплодов.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="skills" class="scroll-mt-24 px-4 py-20 sm:px-6 lg:px-8">
       <div class="mx-auto max-w-7xl">
         <div class="reveal flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
@@ -726,6 +772,7 @@
           skills: "Skills",
           projects: "Projects",
           achievements: "Achievements",
+          europe: "Europe",
           resume: "Resume",
           contacts: "Contacts",
         },
@@ -803,6 +850,23 @@
             "1st place and a 2,000,000 tenge grant for the Plandate project.",
             "1st place and a 1,000,000 tenge grant for Harvest Pulse.",
             "Award for contribution to youth development (SAMK).",
+          ],
+        },
+        europe: {
+          eyebrow: "Trip to Europe",
+          title: "Digital Agroleaders 2026: factory tours at John Deere and Dewulf",
+          body: "The prize for 2nd place at Digital Agroleaders 2026 was a trip to Europe, where I toured the production sites of two well-known agricultural machinery manufacturers.",
+          cards: [
+            {
+              country: "Germany",
+              title: "John Deere",
+              body: "A tour of the John Deere plant in Germany: a close look at how modern agricultural machinery is built.",
+            },
+            {
+              country: "Belgium",
+              title: "Dewulf",
+              body: "A tour of the Dewulf plant in Belgium, a manufacturer of potato and root crop harvesting and handling equipment.",
+            },
           ],
         },
         skills: {
@@ -884,6 +948,7 @@
           skills: "Навыки",
           projects: "Проекты",
           achievements: "Достижения",
+          europe: "Европа",
           resume: "Резюме",
           contacts: "Контакты",
         },
@@ -961,6 +1026,23 @@
             "1 место и грант 2 000 000 тенге на проект «Plandate».",
             "1 место и грант 1 000 000 тенге на «Harvest Pulse».",
             "Награда за вклад в развитие молодежи (ДУМК).",
+          ],
+        },
+        europe: {
+          eyebrow: "Поездка в Европу",
+          title: "Digital Agroleaders 2026: экскурсия по заводам John Deere и Dewulf",
+          body: "Наградой за 2 место в конкурсе Digital Agroleaders 2026 стала поездка в Европу, где я побывал на производстве двух известных производителей сельскохозяйственной техники.",
+          cards: [
+            {
+              country: "Германия",
+              title: "John Deere",
+              body: "Экскурсия по заводу John Deere в Германии: знакомство с тем, как создается современная сельскохозяйственная техника.",
+            },
+            {
+              country: "Бельгия",
+              title: "Dewulf",
+              body: "Экскурсия по заводу Dewulf в Бельгии: производитель техники для уборки и обработки картофеля и корнеплодов.",
+            },
           ],
         },
         skills: {
@@ -1042,6 +1124,7 @@
           skills: "Дағдылар",
           projects: "Жобалар",
           achievements: "Жетістіктер",
+          europe: "Еуропа",
           resume: "Түйіндеме",
           contacts: "Байланыс",
         },
@@ -1119,6 +1202,23 @@
             "«Plandate» жобасына 2 000 000 теңге грант және ҚазАТУ технопаркіндегі 1 орын.",
             "«Harvest Pulse» жобасына 1 000 000 теңге грант және «Агритек стартап идея» конкурсындағы 1 орын.",
             "Жастарды дамытуға қосқан үлесі үшін «Мәуліт сыйлығы» (ҚМДБ).",
+          ],
+        },
+        europe: {
+          eyebrow: "Еуропаға сапар",
+          title: "Digital Agroleaders 2026: John Deere және Dewulf зауыттарына экскурсия",
+          body: "Digital Agroleaders 2026 конкурсындағы 2 орын үшін марапат - Еуропаға сапар болды. Сол жерде ауыл шаруашылығы техникасын шығаратын екі танымал өндірушінің өндірісімен таныстым.",
+          cards: [
+            {
+              country: "Германия",
+              title: "John Deere",
+              body: "Германиядағы John Deere зауытына экскурсия: заманауи ауыл шаруашылығы техникасының қалай жасалатынымен танысу.",
+            },
+            {
+              country: "Бельгия",
+              title: "Dewulf",
+              body: "Бельгиядағы Dewulf зауытына экскурсия: картоп пен тамыржемістерді жинау және өңдеу техникасын шығаратын өндіруші.",
+            },
           ],
         },
         skills: {
@@ -1306,6 +1406,15 @@
         if (heading) setText(heading, t.achievements.titles[index]);
         const body = card.querySelector("p.mt-5");
         if (body) setText(body, t.achievements.cards[index]);
+      });
+
+      setSectionHeader("europe", t.europe);
+      document.querySelectorAll("#europe article").forEach((card, index) => {
+        const item = t.europe.cards[index];
+        if (!item) return;
+        setText("p.text-sm.font-bold", item.country, card);
+        setText("h3", item.title, card);
+        setText("p.mt-5", item.body, card);
       });
 
       setSectionHeader("skills", t.skills);
